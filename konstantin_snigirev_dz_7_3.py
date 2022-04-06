@@ -14,5 +14,9 @@ for f in folders:
 a = shutil.move('my_project_2/adminapp', 'my_project_2/templates')
 b = shutil.move('my_project_2/authapp', 'my_project_2/templates')
 
+# a = shutil.move('my_project_2/adminapp', 'my_project_2/templates')
+# b = shutil.move('my_project_2/authapp', 'my_project_2/templates')
+# os.makedirs('my_project_2/templates/{}'.format(folders_template), exist_ok=True)
+
 
 
